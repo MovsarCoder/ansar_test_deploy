@@ -2,8 +2,8 @@ import logging
 import asyncio
 
 from aiogram import Bot, Dispatcher
-from ansar_aiogram_bot_8.config.settings import BOT_TOKEN
-from ansar_aiogram_bot_8.handlers import router
+from config.settings import BOT_TOKEN
+from handlers import router
 
 
 async def main():
