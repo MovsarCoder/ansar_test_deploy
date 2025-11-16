@@ -20,6 +20,7 @@ async def buy_handler(message: types.Message):
     )
 
 
+
 @router.pre_checkout_query()
 async def pre_checkout_query_handler(query: types.PreCheckoutQuery):
     await query.answer(ok=True)
