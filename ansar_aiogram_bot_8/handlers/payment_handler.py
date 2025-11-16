@@ -1,7 +1,7 @@
 from aiogram import Router, types, filters
 
-from ansar_aiogram_bot_8.config.settings import PAYMENT_TOKEN
-from ansar_aiogram_bot_8.utils.constants import PRICES
+from ..config.settings import PAYMENT_TOKEN
+from ..utils.constants import PRICES
 
 router = Router()
 
