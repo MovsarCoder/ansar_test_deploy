@@ -1,7 +1,7 @@
 from aiogram import Router, types, filters
 
-from ..config.settings import PAYMENT_TOKEN
-from ..utils.constants import PRICES
+from .config.settings import PAYMENT_TOKEN
+from .utils.constants import PRICES
 
 router = Router()
 
